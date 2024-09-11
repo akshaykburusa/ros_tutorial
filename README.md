@@ -99,6 +99,9 @@ roslaunch simulation_environment simulation_environment.launch
 - In this package, we launch the robot description, the robot controller from moveit, and also the robot visualisation in Rviz
 - Copy the package to your workspace and re-compile
 - Then, launch the robot together with the simulation environment
+```
+roslaunch abb_l515_bringup abb_l515_bringup.launch
+```
 
 ### 4.2 Visualize simulation features
 
@@ -117,5 +120,12 @@ rosrun tf tf_echo /world /camera_color_frame
 
 - Copy the packages abb_control, ros_numpy, and utils to the workspace
 - Re-compile and source
-
-
+- Launch the robot in simulation
+```
+roslaunch abb_l515_bringup abb_l515_bringup.launch
+```
+- In a new terminal, run the python script for moving the robotic arm to a desired pose
+```
+rosrun abb_control arm_control_test.py
+```
+- Modify the arm_control_test.py file to move the robotic arm to different desired poses
