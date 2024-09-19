@@ -2,6 +2,11 @@
 
 ## 0. Install dependencies
 
+Prerequisites:  
+[Ubuntu 20.04](https://releases.ubuntu.com/20.04/)  
+[ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)  
+
+ROS dependencies:  
 ```
 sudo apt install ros-noetic-moveit
 sudo apt install ros-noetic-ros-controllers
