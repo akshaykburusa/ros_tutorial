@@ -1,5 +1,13 @@
 # Building a complete ROS project
 
+## 0. Install dependencies
+
+```
+sudo apt install ros-noetic-moveit
+sudo apt install ros-noetic-ros-controllers
+sudo apt install ros-noetic-trac-ik
+```
+
 ## 1. Create a workspace
 
 ```
